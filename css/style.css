@@ -81,7 +81,7 @@ section .wave {
     left: 0;
     width: 100%;
     height: 100px;
-    background-image: url('/img/wave.png');
+    background-image: url('/img/Ilustration/wave.png');
     background-size: 1000px 100px;
 }
 
@@ -143,8 +143,32 @@ section .wave.wave4 {
     font-weight: 700;
     font-size: 24px;
     color: #152C5B;
+    margin-bottom: 30px;
 }
 
 .guru-populer span {
     color: #0072EE;
+}
+
+.list-guru {
+    border-radius: 15px !important;
+    margin-bottom: 30px;
+    height: 130px;
+}
+
+.list-guru:hover {
+    cursor: pointer;
+    filter: drop-shadow(2px 3px 6px #E5E5E5);
+}
+
+.card-body h5 {
+    color: #152C5B;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.keterangan p {
+    font-size: 12.8px;
+    margin-top: 20px;
+    color: #6c757d;
 }
