@@ -154,9 +154,11 @@ section .wave.wave4 {
     border-radius: 15px !important;
     margin-bottom: 30px;
     height: 130px;
+    transition: 0.4s;
 }
 
 .list-guru:hover {
+    transform: scale(1.04);
     cursor: pointer;
     filter: drop-shadow(2px 3px 6px #E5E5E5);
 }
@@ -171,4 +173,57 @@ section .wave.wave4 {
     font-size: 12.8px;
     margin-top: 20px;
     color: #6c757d;
+}
+
+.promotion h3 {
+    margin-top: 40px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+    color: #152C5B;
+    margin-bottom: 30px;
+}
+
+.promotion span {
+    color: #0072EE;
+}
+
+.promotion img {
+    width: 512px;
+    margin-top: 2px;
+}
+
+.promotion h6 {
+    margin-top: 110px;
+    font-size: 18px;
+    color: #152C5B;
+    font-weight: 600;
+}
+
+.sugesti h1 {
+    margin-top: 160px;
+    text-align: center;
+    color: #152C5B;
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.btn-sugesti {
+    position: relative;
+    margin-left: 40%;
+    margin-bottom: 155px;
+}
+
+.footer {
+    border: 1px solid #e5e5ee !important;
+    height: 50px;
+}
+
+.footer p {
+    text-align: center;
+    font-size: 16px;
+    text-align: center;
+    color: #f5f5f5;
+    margin-top: 15px;
 }
