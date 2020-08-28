@@ -193,6 +193,10 @@ section .wave.wave4 {
     margin-top: 2px;
 }
 
+.slider-navbar {
+    display: none;
+}
+
 .promotion h6 {
     margin-top: 110px;
     font-size: 18px;
@@ -226,4 +230,54 @@ section .wave.wave4 {
     text-align: center;
     color: #f5f5f5;
     margin-top: 15px;
+}
+
+/* Responsive */
+@media only screen and (max-width: 768px) {
+    .btn-navbar {
+        margin-left: 5px;
+    }
+
+    .section-hero img {
+        display: none;
+    }
+
+    .tag-hero {
+        margin-top: 10px;
+        margin-left: 5px;
+    }
+
+    .list-guru img {
+        width: 130px;
+    }
+
+    .keterangan p {
+        margin-left: 135px;
+    }
+
+    .card-body h5 {
+        margin-top: -120px;
+        margin-left: 135px;
+    }
+
+    .carousel1 {
+        display: none;
+    }
+
+    .carousel {
+        display: none;
+    }
+
+    .slider-navbar {
+        display: block;
+    }
+
+    .sugesti h1 {
+        font-size: 20px;
+        margin-top: 110px;
+    }
+
+    .btn-sugesti {
+        margin-left: 135px;
+    }
 }
